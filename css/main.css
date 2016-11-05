@@ -589,6 +589,11 @@ p {
   }
 }
 
+.gallery {
+  background: #BFBCB6;
+  padding-top: 45px;
+}
+
 .about {
   background-image: url("images/beach-fence.jpg");
   background-position: center;
@@ -644,7 +649,7 @@ p {
 }
 
 a.back-to-top {
-  background: url("../images/back-to-top1.png") no-repeat center 43%;
+  background: url("images/back-to-top1.png") no-repeat center 43%;
   display: none;
   width: 16vw;
   height: 16vw;

@@ -134,6 +134,12 @@ p{
 
 }//end-welcome-classes
 
+
+.gallery{
+    background: #BFBCB6;
+    padding-top: 45px;
+}
+
 .about{
 	background-image: url("images/beach-fence.jpg");
 	background-position:center;
@@ -144,7 +150,7 @@ p{
   	color: #bfbcb6;
   		@media only screen and (min-width: $breakpoint-tablet) {
         /*tablet*/
-        background-position: left;
+            background-position: left;
     	}
 
   		&__wrapper{
@@ -183,7 +189,7 @@ p{
 }//end-about-classes
 
 a.back-to-top {
-  background: url("../images/back-to-top1.png") no-repeat center 43%;
+  background: url("images/back-to-top1.png") no-repeat center 43%;
   display: none;
   width: 16vw;
   height: 16vw;
