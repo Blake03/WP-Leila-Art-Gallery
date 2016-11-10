@@ -452,12 +452,6 @@ p {
   color: #bfbcb6;
 }
 
-.welcome:hover {
-  color: #bfbcb6;
-  background-color: rgba(255, 255, 255, 0);
-  border-color: #bfbcb6;
-}
-
 .welcome__wrapper {
   padding-top: 28vh;
   text-align: center;
@@ -523,7 +517,7 @@ p {
     border: 2.5px solid #bfbcb6;
     font-size: 2vw;
     width: 23vw;
-    transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+    transition: all 0.2s ease-out;
   }
   .welcome__ghost-button:hover {
     color: #fff;
@@ -533,7 +527,7 @@ p {
     border-color: #fff;
     /* fallback */
     border-color: rgba(255, 255, 255, 0.4);
-    transition: background-color 0.1s ease-in, border-color 0.1s ease-in;
+    transition: all 0.1s ease-in;
   }
 }
 
