@@ -588,6 +588,13 @@ p {
   padding-top: 45px;
 }
 
+@media only screen and (min-width: 900px) {
+  .gallery {
+    /*desktop*/
+    padding: 45px 45px 0px;
+  }
+}
+
 .about {
   background-image: url("images/beach-fence.jpg");
   background-position: center;
@@ -613,6 +620,13 @@ p {
   font-size: 6vw;
   text-align: center;
   padding: 40px 0px 7px;
+}
+
+@media only screen and (min-width: 600px) {
+  .about__heading {
+    /*tablet*/
+    padding: 0px;
+  }
 }
 
 .about__text-box {

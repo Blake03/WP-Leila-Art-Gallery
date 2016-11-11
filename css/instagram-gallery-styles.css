@@ -10,7 +10,9 @@
 	border: 5px solid #BFBCB6;
     background-color: #BFBCB6; 
     box-sizing: border-box;
+    padding: 5px;
 }
+
 #wdi_feed_0 .wdi_feed_container {
 	border-bottom: 0px;
 }
@@ -44,6 +46,20 @@
     background: #BFBCB6;
     border-color: #32373c;
     color: #32373c;
+}
+
+/*thumbnail-hover*/
+#wdi_feed_0 .wdi_photo_overlay:hover {
+    cursor: pointer;
+    background-color: #545454;
+    opacity: 0.3;
+    transform: scale(2);
+}
+
+
+/*lightbox-background*/
+#wdi_spider_popup_wrap{
+	background-color: #ffffff;
 }
 
 

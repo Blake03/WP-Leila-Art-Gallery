@@ -82,7 +82,7 @@ get_header(); ?>
         
     </article>
 
-  <h4 class="about__copyright">&#169; 2016 LeilaAlexanda.com</h4>
+  <h4 class="about__copyright">&#169; 2016 BlakeSimsDesign.com</h4>
 </section><!--about-->
 
 <a href="#" class="back-to-top">Back to Top</a>

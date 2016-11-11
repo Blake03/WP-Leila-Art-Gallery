@@ -133,6 +133,10 @@ p{
 .gallery{
     background: #BFBCB6;
     padding-top: 45px;
+        @media only screen and (min-width: $breakpoint-desktop) {
+        /*desktop*/
+            padding: 45px 45px 0px;
+        }
 }
 
 .about{
@@ -156,6 +160,10 @@ p{
   			font-size: 6vw;
   			text-align: center;
   			padding: 40px 0px 7px;
+          @media only screen and (min-width: $breakpoint-tablet) {
+          /*tablet*/
+            padding: 0px;
+          }
   		}
 
   		&__text-box{
