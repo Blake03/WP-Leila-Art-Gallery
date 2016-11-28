@@ -59,6 +59,7 @@ get_header(); ?>
 <section id="gallery" class="gallery">
     <div class="gallery__wrapper">
 
+<!--instagram feed-->
 <?php echo wdi_feed(array('id'=>'1')); ?>
 
   </div><!--wrapper-->
@@ -76,9 +77,19 @@ get_header(); ?>
     <article class="about__text-box">
         <h2 class="about__heading">More About Leila</h2>
 
-        <p>bio coming soon Lorem ipsum dolor sit amet, at acc umsan maies tatis sit. Co ngue pet entium prod esset mei at, est te autem perse cuti conc lusi onemque, ut ornatus feugait reform idans mel. Etiam dicunt repudiare et quo. Ei pro dictas consulatu, feugiat defin itiones pri ut, sea nostro alterum inco rrupte et. Ex nam er ipuit repu diandae. Inimicus torq uatos qui ut, an suas accu msan ulla mcorper eos.</p>
+        <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
 
-        <p>Hum et reg ione equidem post ulant. Ali quam compr ehens am id mei, fuisset suscipit nam et, quo an viderer discere. In iisque cons tit uam cum. Nam et adhuc ridens plac erat, omnes aperiri nam eu. Ocurr eret diss entiet vis ut, vix illum iusto soluta ei.</p>
+                    <?php
+                    while ( have_posts() ) : the_post();
+
+                        get_template_part( 'template-parts/content', 'page' );
+
+                    endwhile; // End of the loop.
+                    ?>
+
+                </main><!-- #main -->
+            </div><!-- #primary -->
         
     </article>
 
