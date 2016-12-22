@@ -430,7 +430,7 @@ a {
 }
 
 html {
-  font-family: 'play';
+  font-family: "play";
 }
 
 p {
@@ -444,12 +444,19 @@ p {
 }
 
 .welcome {
-  background-image: url("images/ocean-swing.jpg");
+  background-image: url("images/ocean-swing-mobile.jpg");
   height: 100vh;
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
   color: #bfbcb6;
+}
+
+@media only screen and (min-width: 900px) {
+  .welcome {
+    /*desktop*/
+    background-image: url("images/ocean-swing.jpg");
+  }
 }
 
 .welcome__wrapper {
@@ -596,7 +603,7 @@ p {
 }
 
 .about {
-  background-image: url("images/beach-fence.jpg");
+  background-image: url("images/beach-fence-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -609,6 +616,13 @@ p {
   .about {
     /*tablet*/
     background-position: left;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .about {
+    /*desktop*/
+    background-image: url("images/beach-fence3.jpg");
   }
 }
 

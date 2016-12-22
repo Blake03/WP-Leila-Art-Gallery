@@ -1,3 +1,18 @@
+
+//Fonts
+$main-font-family: "play";
+$about-heading-size: 6vw;
+$about-text-size: 5vw;
+
+//Backgrounds
+$mobile-background-welcome: url("images/ocean-swing-mobile.jpg");
+$mobile-background-about: url("images/beach-fence-mobile.jpg");
+
+$background-gallery: #BFBCB6;
+
+$desktop-background-welcome: url("images/ocean-swing.jpg");
+$desktop-background-about: url("images/beach-fence3.jpg");
+
 //Media Queries
 $breakpoint-tablet: 600px;
 $breakpoint-desktop: 900px;
