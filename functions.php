@@ -114,13 +114,15 @@ function leila_art_gallery_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'leila_art_gallery_scripts' );
 
+
 // Load Font Awesome
 add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );
 function enqueue_font_awesome() {
 
 	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css' );
-
 }
+
+
 /**
  * Implement the Custom Header feature.
  */

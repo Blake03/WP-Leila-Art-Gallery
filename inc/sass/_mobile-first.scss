@@ -1,6 +1,6 @@
 html{
 	font-family: $main-font-family;
-	color: $main-font-color;
+	color: #bfbcb6;
 }
 
 p{
@@ -10,7 +10,7 @@ p{
 /*prevents hover styles from bleeding 
   into active links on mobile devices*/
 .welcome__social-icons a .fa:hover {
-  color: $main-font-color;
+  color: #bfbcb6;
 }
 
 .welcome{
@@ -19,6 +19,7 @@ p{
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: #bfbcb6;
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
 			background-image: $desktop-background-welcome;
@@ -55,9 +56,10 @@ p{
 			width: 40vw;
 			margin: 9px 1vw;
 			padding: 2px;
-			border: 2px solid;
+			border: 2px solid #bfbcb6;
 			border-radius: 5px;
 			font-size: 4vw;
+			color: #bfbcb6;
 			text-align: center;
 			outline: none;
 			text-decoration: none;
@@ -72,12 +74,12 @@ p{
 				}
 				@media only screen and (min-width: $breakpoint-desktop) {
 				/*desktop*/
-					border: 2.5px solid;
+					border: 2.5px solid #bfbcb6;
 					font-size: 2vw;
 					width: 23vw;
 					transition: all 0.2s ease-out;
 						&:hover{
-						color: $hover-color;
+						color: #fff;
 						background-color: #505050; /* fallback */
 						background-color: rgba(255, 255, 255, 0.1);
 						border-color: #fff; /* fallback */
@@ -92,7 +94,7 @@ p{
 			padding: 0px 0px 6px 0px;
 			display: inline-block;
 			&:hover{
-				 color: $main-font-color;
+				 color: #bfbcb6;
 			}
 				@media only screen and (min-width: $breakpoint-tablet) {
 				/*tablet*/
@@ -103,7 +105,7 @@ p{
 					font-size: 2vw;
 					transition: all 0.2s ease-out;
 						&:hover{
-							color: $hover-color;
+							color: #fff;
 							transition: all 0.1s ease-in;
 						}
 						
@@ -123,7 +125,7 @@ p{
 				.fa{
 					transition: all 0.2s ease-out;
 					&:hover{
-						color: $hover-color;
+						color: #fff;
 						transition: all 0.1s ease-in;
 					}
 				}
